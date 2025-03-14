@@ -19,7 +19,7 @@ console.log(gameName.indexOf('u'));
 const newString = gameName.substring(0, 5)
 console.log(newString);
 
-const anotherString = gameName.slice(-11,5)
+const anotherString = gameName.slice(-21,5)
 console.log(anotherString);
 
 const newStringOne = "    Akshat    "
