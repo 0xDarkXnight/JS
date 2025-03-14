@@ -14,7 +14,7 @@ const myArr2 = new Array(1, 2, 3, 4)
 // console.log(myArr.indexOf(3))
 // console.log(myArr)
 
-const newArr = myArr.join()
+const newArr = myArr.join() // join all the array elements into a string.
 // console.log(myArr)
 // console.log(newArr)
 // console.log(typeof newArr)
