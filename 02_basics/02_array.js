@@ -1,7 +1,7 @@
 const marvel_heroes = ["IronMan", "Thor", "SpiderMan"]
 const dc_heroes = ["SuperMan", "Flash", "Batman"]
 
-// marvel_heroes.push(dc_heroes)
+// marvel_heroes.push(dc_heroes) // it will be pushed as an array
 // console.log(marvel_heroes)
 // console.log(marvel_heroes[3][2])
 
