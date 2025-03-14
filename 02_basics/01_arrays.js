@@ -1,4 +1,4 @@
-const myArr = [0, 1, 2, 3, 4]
+const myArr = [0, 1, 2, 3, 4, 5]
 const myHeroes = ["iron man", "captain america", "thor"]
 const myArr2 = new Array(1, 2, 3, 4)
 // console.log(myArr[0])
@@ -23,12 +23,12 @@ const newArr = myArr.join() // join all the array elements into a string.
 
 console.log("A ", myArr)
 
-const myn1 = new Array(myArr.slice[1,3])
+const myn1 = myArr.slice(1,3)
 
 console.log(myn1)
 console.log("B ", myArr)
 
-const myn2 = new Array(myArr.splice[1,3])
+const myn2 = myArr.splice(1,3)
 
 console.log("C", myArr)
 console.log(myn2)
