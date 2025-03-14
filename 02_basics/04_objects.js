@@ -52,3 +52,34 @@ console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+const course = {
+    coursename: "JS by chai aur code",
+    courseprice: "999",
+    courseInstructor: "Hitesh Choudhary"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course
+
+// console.log(courseInstructor)
+console.log(instructor);
+
+// const navbar = (/*props.company =>*/ {company}) => {
+
+// }
+
+// navbar(company = "Hitesh")    // this is a part of React.
+
+// {
+//     "name": "Akshat",
+//     "coursename": "JS",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]                     // the JSON could be an array too.
